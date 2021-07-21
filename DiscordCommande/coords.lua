@@ -1,5 +1,5 @@
 RegisterCommand("coords", function()
     local c = GetEntityCoords(PlayerPedId())
     local h = GetEntityHeading(PlayerPedId())
-    TriggerServerEvent("sUtils:Coords", c.x, c.y,c.z, h)
+    TriggerServerEvent("sUtils:Coords", c.x, c.y, c.z, h)
 end, false)
